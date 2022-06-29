@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ea4ed254-4f0f-4d7c-8e68-54fd404edc7a}</ProjectGuid>
-    <RootNamespace>wconlib</RootNamespace>
+    <ProjectGuid>{cc72dcde-15d7-4f83-8221-260e4bec80ac}</ProjectGuid>
+    <RootNamespace>wconliblua</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
