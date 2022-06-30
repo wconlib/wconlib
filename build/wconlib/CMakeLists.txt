@@ -4,9 +4,7 @@ cmake_minimum_required(VERSION 3.10)
 project(wconlib)
 
 # add the executable
-add_executable
-(
-    wconlib 
+add_executable(wconlib
     ../../src/wconlib/main.c
     ../../src/wconlib/minio.h
 )
