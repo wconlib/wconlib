@@ -16,6 +16,13 @@ int main()
 #endif
 
 #ifdef __LINUX__
+    int input = lin_get_input_handle();
+    int output = lin_get_output_handle();
+
+    char buffer[1024];
+    lin_read_console(input, buffer, 1024);
+
+    lin_write_console(output, buffer);
 
 #endif
 
