@@ -4,4 +4,4 @@ cmake_minimum_required(VERSION 3.10)
 project(wconlib)
 
 # add the executable
-add_executable(wconlib_test ./src/wconlib/main.cpp)
+add_executable(wconlib ../../src/wconlib/main.cpp)
