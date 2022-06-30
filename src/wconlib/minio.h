@@ -50,7 +50,7 @@ BOOL win_write_console(HANDLE consoleOutput, const wchar_t* buffer)
 #ifdef __LINUX__
 
 #include <unistd.h>
-#include <wchar.h>
+#include <string.h>
 
 int lin_get_input_handle()
 {
@@ -70,7 +70,7 @@ BOOL lin_read_console(int consoleInput, char* buffer, size_t bufferSize)
 
 BOOL lin_write_console(int consoleOutput, const char* buffer)
 {
-    size_t len = wcslen(buffer);
+    size_t len = strlen(buffer);
     size_t ret = write(consoleOutput, buffer, len);
     return ret != -1;
 }
