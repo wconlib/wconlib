@@ -62,13 +62,13 @@ int lin_get_output_handle()
     return STDOUT_FILENO;
 }
 
-BOOL lin_read_console(int consoleInput, char* buffer, size_t bufferSize)
+int lin_read_console(int consoleInput, char* buffer, size_t bufferSize)
 {
     size_t ret = read(consoleInput, buffer, bufferSize);
     return ret != -1;
 }
 
-BOOL lin_write_console(int consoleOutput, const char* buffer)
+int lin_write_console(int consoleOutput, const char* buffer)
 {
     size_t len = strlen(buffer);
     size_t ret = write(consoleOutput, buffer, len);
