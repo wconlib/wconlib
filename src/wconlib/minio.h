@@ -1,7 +1,8 @@
 ﻿#ifndef MINIO_HEADER
 #define MINIO_HEADER
 
-#ifdef _WIN32 || WIN32
+//Platform macros:
+#if defined(_WIN32) || defined(WIN32)
 #define __WINDOWS__
 #endif
 
