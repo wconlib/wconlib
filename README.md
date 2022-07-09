@@ -11,3 +11,5 @@ Why this library named wconlib? conlib = console library, prefix 'w' has triple 
 ## Third Party
 
 [Lua 5.4.4](https://www.lua.org/versions.html#5.4)
+
+[kaguya](https://github.com/satoren/kaguya)
