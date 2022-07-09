@@ -109,6 +109,9 @@
     <Filter Include="lua">
       <UniqueIdentifier>{e44750a5-404f-4f8c-997d-e49842883376}</UniqueIdentifier>
     </Filter>
+    <Filter Include="kaguya">
+      <UniqueIdentifier>{f9826256-a1ad-475e-9b19-6048c044711c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="lua\lapi.h">
@@ -194,6 +197,9 @@
     </ClInclude>
     <ClInclude Include="lua\lzio.h">
       <Filter>lua</Filter>
+    </ClInclude>
+    <ClInclude Include="kaguya\kaguya.hpp">
+      <Filter>kaguya</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

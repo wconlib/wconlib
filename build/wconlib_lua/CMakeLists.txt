@@ -6,6 +6,7 @@ project(wconlib_lua)
 # add the executable
 add_executable(wconlib_lua
     ../../src/wconlib_lua/main.cpp
+    ../../src/wconlib_lua/kaguya/kaguya.hpp
     ../../src/wconlib_lua/lua/lapi.c
     ../../src/wconlib_lua/lua/lapi.h
     ../../src/wconlib_lua/lua/lauxlib.c
