@@ -1,4 +1,8 @@
-﻿#include "kaguya\kaguya.hpp"
+﻿#ifdef _WIN32
+#include "kaguya\kaguya.hpp"
+#elif __linux__
+#include "kaguya.hpp"
+#endif
 
 int main()
 {
